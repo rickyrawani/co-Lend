@@ -1,7 +1,7 @@
 // pages/create-mta.tsx
 import React from "react";
-import BankDetails from "@/components/mta-tabs/bankdetails";
-import NbfcDetails from "@/components/mta-tabs/nbfcDetails";
+import BankDetails from "@/components/mta-tabs/BankDetails";
+import NbfcDetails from "@/components/mta-tabs/NbfcDetails";
 import LendingRatio from "@/components/mta-tabs/LendingRatio";
 import Approval from "@/components/mta-tabs/Approval";
 
