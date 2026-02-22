@@ -20,6 +20,14 @@
 
 import { z } from "zod";
 
+export interface User {
+  id: string;
+  username: string;
+  password: string;
+}
+
+export type InsertUser = Omit<User, "id">;
+
 export type UserRole = "NBFC_ADMIN" | "BANK_ADMIN";
 
 export const userRoleSchema = z.enum(["NBFC_ADMIN", "BANK_ADMIN"]);
